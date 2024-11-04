@@ -1,0 +1,81 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Sixtyfour+Convergence&display=swap');
+
+* {
+	box-sizing: border-box;
+	font-family: "Inter", sans-serif;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background: #0A0C1C;
+}
+
+main {
+	background: #1B1937;
+	width: 80%;
+	max-width: 1110px;
+	display: flex;
+	align-items: stretch;
+	border-radius: 8px;
+}
+
+span {
+	color: #AB5CDB;
+}
+
+.left {
+	width: 50%;
+	padding: 56px;
+    padding-bottom:0 ;
+}
+
+img {
+	width: 50%;
+	height: 100%;
+	align-self: flex-end;
+	background-color: rgb(153, 0, 255);
+}
+
+
+h1 {
+	font-size: 36px;
+	margin-bottom: 24px;
+	font-weight: 700;
+	width: 404px;
+}
+
+.description {
+	width: 374px;
+	margin-bottom: 100px;
+	opacity: 60%;
+}
+
+.stats {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.statcell {
+	width: 83px;
+	margin-right: 64px;
+}
+
+.stat-number {
+	font-weight: 700;
+	font-size: 24px;
+	margin-bottom: 8px;
+}
+
+.stat-desc {
+	opacity: 60%;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
